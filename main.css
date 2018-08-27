@@ -1,24 +1,52 @@
 html{
     width: 1000px;
     margin: 15px auto;
-    border:5px solid rgba(240, 240, 240, .6);
-    padding: 15px;
+    border: 5px solid rgba(240, 240, 240, .6);
 }
 body{
-    background: #0d8052;
-    color: #f0f0f0;
+    background: rgba(173, 209, 174, 0.5);
+    color: #000000;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    background: rgb(95, 193, 100);
+}
+nav h1{
+    padding: 0 15px;
+    flex-grow: 5;
+    font-size: 30px;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    flex-grow:1;
+    text-align: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+nav a:hover{
+    color: blue;
+    transition: all 0.3s ease;
 }
 header{
-    height: 200px;
-    border-bottom: 2px solid rgba(240, 240, 240, .4)
+    background: rgb(95, 193, 100);
+    border-bottom: 2px solid rgba(240, 240, 240, .6);
 }
 #headshot{
-    float: right;
     height: 150px;
     width: 150px;
+    margin: 2px;
     border-radius: 50%;
     border: 5px solid #f0f0f0;
 }
-h1{
-    display: inline;
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+li{
+    margin: 0 5px;
 }
