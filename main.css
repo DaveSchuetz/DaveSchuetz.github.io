@@ -3,9 +3,22 @@ html{
     margin: 15px auto;
     border: 5px solid rgba(240, 240, 240, .6);
 }
+a {
+    text-decoration: none;
+}
+.sentence-link{
+    color: black;
+    text-decoration: none;
+}
+.sentence-link:hover{
+    color: white;
+    transition: all 0.3s ease;
+}
 body{
     background: rgba(173, 209, 174, 0.5);
     color: #000000;
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 nav{
     display: flex;
@@ -14,14 +27,13 @@ nav{
     background: rgb(95, 193, 100);
 }
 nav h1{
+    font-family: 'Merienda', cursive;
     padding: 0 15px;
     flex-grow: 5;
-    font-size: 30px;
+    font-size: 35px;
     color: white;
 }
 nav a{
-    text-decoration: none;
-    font-size: 20px;
     flex-grow:1;
     text-align: center;
     color: white;
@@ -42,11 +54,25 @@ header{
     border-radius: 50%;
     border: 5px solid #f0f0f0;
 }
-ul{
+.sm-links{
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
 }
-li{
+.sm-links li{
     margin: 0 5px;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 30%;
+}
+.bounce:hover { animation: bounce 1s; }
+
+@keyframes bounce {
+	  0% { transform: rotate(  0deg) scale(1.0); }
+	 33% { transform: rotate( 12deg) scale(1.2); }
+	 67% { transform: rotate(-12deg) scale(0.8); }
+	100% { transform: rotate(  0deg) scale(1.0); }
 }
