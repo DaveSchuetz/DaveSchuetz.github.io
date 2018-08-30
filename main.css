@@ -61,12 +61,19 @@ header{
 }
 .sm-links li{
     margin: 0 5px;
+    transition: all 0.3s ease;
+}
+.sm-links li:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
 }
 .skills{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+}
+.skills li{
     flex-basis: 30%;
+    margin: 10px;
 }
 .bounce:hover { animation: bounce 1s; }
 
