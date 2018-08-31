@@ -2,9 +2,11 @@ html{
     width: 1000px;
     margin: 15px auto;
     border: 5px solid rgba(240, 240, 240, .6);
+    text-shadow: 1px 1px rgba(117, 117, 117, 0.5);
 }
 a {
     text-decoration: none;
+    font-weight: 600;
 }
 .sentence-link{
     color: black;
@@ -25,12 +27,13 @@ nav{
     align-items: center;
     margin-bottom: 2px;
     background: rgb(95, 193, 100);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 nav h1{
     font-family: 'Merienda', cursive;
     padding: 0 15px;
     flex-grow: 5;
-    font-size: 35px;
+    font-size: 40px;
     color: white;
 }
 nav a{
@@ -40,7 +43,7 @@ nav a{
     transition: all 0.3s ease;
 }
 nav a:hover{
-    color: blue;
+    color: rgb(59, 91, 194);
     transition: all 0.3s ease;
 }
 header{
@@ -52,7 +55,8 @@ header{
     width: 150px;
     margin: 2px;
     border-radius: 50%;
-    border: 5px solid #f0f0f0;
+    border: 2px solid #f0f0f0;
+    box-shadow: 3px 3px rgba(105, 105, 105, 0.5);
 }
 .sm-links{
     display: flex;
@@ -70,10 +74,11 @@ header{
 .skills{
     display: flex;
     flex-wrap: wrap;
+    list-style-image: url(./images/ul.png)
 }
 .skills li{
     flex-basis: 30%;
-    margin: 10px;
+    margin: 5px;
 }
 .bounce:hover { animation: bounce 1s; }
 
@@ -82,4 +87,30 @@ header{
 	 33% { transform: rotate( 12deg) scale(1.2); }
 	 67% { transform: rotate(-12deg) scale(0.8); }
 	100% { transform: rotate(  0deg) scale(1.0); }
+}
+.game-title {
+    font-family: 'Merienda', cursive;
+    color:rgb(29, 20, 151);
+}
+.project-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #f0f0f0;
+    box-shadow: 3px 3px rgba(105, 105, 105, 0.5);
+    float: left;
+    margin: 0 10px 0 5px;
+}
+p{
+    letter-spacing: 1px;
+}
+.project:first-letter{
+    font-weight: bold;
+    float: left;
+    color: rgb(29, 20, 151);
+    font-size: 200%;
+    letter-spacing: 3px;
+}
+.project {
+    margin:5px;
 }
