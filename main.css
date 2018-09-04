@@ -88,7 +88,7 @@ header{
 	 67% { transform: rotate(-12deg) scale(0.8); }
 	100% { transform: rotate(  0deg) scale(1.0); }
 }
-.game-title {
+.project-title {
     font-family: 'Merienda', cursive;
     color:rgb(29, 20, 151);
 }
