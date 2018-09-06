@@ -1,7 +1,6 @@
 html{
     width: 1000px;
     margin: 15px auto;
-    border: 5px solid rgba(240, 240, 240, .6);
     text-shadow: 1px 1px rgba(117, 117, 117, 0.5);
 }
 a {
@@ -13,7 +12,7 @@ a {
     text-decoration: none;
 }
 .sentence-link:hover{
-    color: white;
+    color: rgb(210,126,204);
     transition: all 0.3s ease;
 }
 body{
@@ -43,7 +42,7 @@ nav a{
     transition: all 0.3s ease;
 }
 nav a:hover{
-    color: rgb(59, 91, 194);
+    color: rgb(210,126,204);
     transition: all 0.3s ease;
 }
 header{
@@ -68,7 +67,7 @@ header{
     transition: all 0.3s ease;
 }
 .sm-links li:hover{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(210, 126, 204, 0.6);
     transition: all 0.3s ease;
 }
 .skills{
@@ -90,7 +89,7 @@ header{
 }
 .project-title {
     font-family: 'Merienda', cursive;
-    color:rgb(29, 20, 151);
+    color:rgb(210,126,204);
 }
 .project-img{
     height: 150px;
@@ -107,10 +106,88 @@ p{
 .project:first-letter{
     font-weight: bold;
     float: left;
-    color: rgb(29, 20, 151);
+    color: rgb(210,126,204);
     font-size: 200%;
     letter-spacing: 3px;
 }
 .project {
     margin:5px;
+}
+#banner{
+    width: 750px;
+    font-size: 30px;
+    margin: 0 15px;
+    display: inline-block;
+    text-align: center;
+    color: rgb(95, 193, 100);
+    text-shadow: none;
+    background: rgb(95, 193, 100);
+}
+#banner p{
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#h{
+    animation: animate 3s infinite;
+    animation-delay: 0s;
+}
+#e
+{
+    animation: animate 2s infinite;
+    animation-delay: .15s;
+}
+#l
+{
+    animation: animate 2.3s infinite;
+    animation-delay: .3s;
+}
+#l2
+{
+    animation: animate 2.5s infinite;
+    animation-delay: .45s;
+}
+#o
+{
+    animation: animate 2.6s infinite;
+    animation-delay: .6s;
+}
+#w
+{
+    animation: animate 3.25s infinite;
+    animation-delay: .75s;
+}
+#o2
+{
+    animation: animate 2.9s infinite;
+    animation-delay: .9s;
+}
+#r
+{
+    animation: animate 3.05s infinite;
+    animation-delay: 1.05s;
+}
+#l3
+{
+    animation: animate 3.2s infinite;
+    animation-delay: 1.2s;
+}
+#d
+{
+    animation: animate 3.35s infinite;
+    animation-delay: 1.35s;
+}
+@keyframes animate
+{
+    0%
+    {
+        color: rgb(226, 51, 215);
+    }
+    50%
+    {
+        color: rgb(95, 193, 100)
+    }
+    100%{
+        color: rgb(95, 193, 100)
+    }
 }
