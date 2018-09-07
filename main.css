@@ -14,11 +14,13 @@ a {
 .sentence-link:hover{
     color: rgb(210,126,204);
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 body{
     background: rgba(173, 209, 174, 0.5);
     color: #000000;
     font-size: 25px;
+    line-height: 1;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 nav{
@@ -34,6 +36,7 @@ nav h1{
     flex-grow: 5;
     font-size: 40px;
     color: white;
+    font-weight: bold;
 }
 nav a{
     flex-grow:1;
@@ -44,12 +47,20 @@ nav a{
 nav a:hover{
     color: rgb(210,126,204);
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 header{
     background: rgb(95, 193, 100);
     border-bottom: 2px solid rgba(240, 240, 240, .6);
 }
+main{
+    line-height:1.1;
+}
+object{
+    margin-top:20px;
+}
 #headshot{
+    vertical-align: initial;
     height: 150px;
     width: 150px;
     margin: 2px;
@@ -90,6 +101,8 @@ header{
 .project-title {
     font-family: 'Merienda', cursive;
     color:rgb(210,126,204);
+    margin-top: 15px;
+    font-weight: bold;
 }
 .project-img{
     height: 150px;
@@ -102,6 +115,10 @@ header{
 }
 p{
     letter-spacing: 1px;
+    margin: 15px 0;
+}
+.projects{
+    margin: 15px 0;
 }
 .project:first-letter{
     font-weight: bold;
@@ -111,7 +128,7 @@ p{
     letter-spacing: 3px;
 }
 .project {
-    margin:5px;
+    margin:15px 5px;
 }
 #banner{
     width: 750px;
