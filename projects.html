@@ -26,6 +26,12 @@
         </header>
     <main>
         <div class="projects">
+                <h3 class="project-title">Jotpad</h3>
+            <div class="project">
+                <img class="project-img" src="images/jotpad.png" alt="Jotpad screenshot">
+                <p>Jotpad is a notepad application. Anyone can sign-up and start keeping notes, and access them anywhere on the web. A user will be able to get an e-mail in case they forgot their password. The site is responsive to mobile web viewing.</p>
+                <p>The application was built with React and Firebase. Firebase was used as the database, deployment, and authentication. When someone signs in they will only be able to see the notes that they have created. This was the most straining part of the project. To start, I had to set it up so that when a note was created, it associated the user ID with it as the creator. Next it involved passing the authentication props through to the notes, and when querying the database, only searching based on the ID. -- View <a href="https://jot-pad-notes.firebaseapp.com/" class="sentence-link" target="_blank">here</a>. See the code on <a href="https://github.com/DaveSchuetz/jotpad" class="sentence-link" target="_blank">Github</a>.</p>
+            </div>
             <h3 class="project-title">Tower of Hanoi</h3>
             <div class="project">
                 <img class="project-img" src="images/Hanoi.png" alt="Hanoi screenshot">
@@ -47,13 +53,7 @@
                 <p>Bookclub was a group project built with MongoDB, Express, React, and Node. This was to test our abilities to divide work and to work through GitHub conflicts. We did run into a few issues with merging into GitHub, but otherwise, our project went pretty smoothly. That is, until it came time to deploy. One thing that we saw was an issue while deploying to Surge, where it was having issues redirecting. This turns out was due to an issue Surge has with React routing, the resolution was to add a 200.html page, that Surge would use as the go to if the routing was not perfect, from there it would use React routing as expected.
                 -- View <a href="http://mern-bookclub.surge.sh/" class="sentence-link" target="_blank">here</a>. See the code for the <a href="https://github.com/DaveSchuetz/BookClub-FrontEnd" class="sentence-link" target="_blank">front-end</a>, and the <a href="https://github.com/DaveSchuetz/BookClub-BackEnd" class="sentence-link" target="_blank">back-end</a>.</p>
             </div>
-            <!-- <h3 class="game-title">Tower of Hanoi</h3>
-            <div class="project">
-                    <img class="project-img" src="images/Hanoi.png" alt="Hanoi screenshot">
-                    <p>Tower of Hanoi is a logic game where you must move a series of disks from tower A to tower C. You are only allowed to move one disk at a time and a larger disk may not be placed on top of a smaller disk.</p>
-                    <p>The game was built with mostly vanilla JavaScript. There was some jQuery used to make sure some of the aspects were written cleaner. While building some of the actions, I ran into an issue where the multiple event listeners were interfering with each other. I was able to remedy this by creating just one listener that was used by all the clicks for the towers.
-                    -- View <a href="https://community-kitchen.herokuapp.com/" class="sentence-link">here</a>. See the code on <a href="https://github.com/DaveSchuetz/CommunityKitchen" class="sentence-link">GitHub</a>.</p>
-                </div> -->
+            
         </div>
     </main>
     <footer>
