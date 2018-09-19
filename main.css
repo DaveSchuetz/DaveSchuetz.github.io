@@ -1,6 +1,6 @@
 html{
-    width: 1000px;
-    margin: 15px auto;
+    max-width: 1000px;
+    margin: auto;
     text-shadow: 1px 1px rgba(117, 117, 117, 0.5);
 }
 a {
@@ -52,9 +52,11 @@ nav a:hover{
 header{
     background: rgb(95, 193, 100);
     border-bottom: 2px solid rgba(240, 240, 240, .6);
+    padding-top: 5px;
 }
 main{
     line-height:1.1;
+    padding: 5px
 }
 object{
     margin-top:20px;
@@ -77,10 +79,6 @@ object{
     margin: 0 5px;
     transition: all 0.3s ease;
 }
-.sm-links li:hover{
-    background-color: rgba(210, 126, 204, 0.6);
-    transition: all 0.3s ease;
-}
 .skills{
     display: flex;
     flex-wrap: wrap;
@@ -90,8 +88,20 @@ object{
     flex-basis: 30%;
     margin: 5px;
 }
-.bounce:hover { animation: bounce 1s; }
-
+.bounce:hover { 
+    animation: bounce 1s; 
+}
+.info{
+    margin-top: 25px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+}
+.indent{
+    text-indent: 32px;
+}
+hr{
+    background: rgba(210, 126, 205, 0.2);
+}
 @keyframes bounce {
 	  0% { transform: rotate(  0deg) scale(1.0); }
 	 33% { transform: rotate( 12deg) scale(1.2); }
@@ -101,6 +111,7 @@ object{
 .project-title {
     font-family: 'Merienda', cursive;
     margin-top: 15px;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 .project-img{
@@ -110,16 +121,16 @@ object{
     border: 2px solid #f0f0f0;
     box-shadow: 3px 3px rgba(105, 105, 105, 0.5);
     float: left;
-    margin: 0 10px 0 5px;
+    margin: 10px 10px 2px 5px;
 }
 p{
     letter-spacing: 1px;
     margin: 15px 0;
 }
 .projects{
-    margin: 15px 0;
+    margin-top: 25px;
 }
-.project:first-letter{
+.first:first-letter{
     font-weight: bold;
     float: left;
     color: rgb(210,126,204);
@@ -127,7 +138,7 @@ p{
     letter-spacing: 3px;
 }
 .project {
-    margin:15px 5px;
+    margin:15px 5px 25px;
 }
 #banner{
     width: 750px;
@@ -145,7 +156,7 @@ p{
     letter-spacing: 2px;
 }
 #h{
-    animation: animate 3s infinite;
+    animation: animate 1.8s infinite;
     animation-delay: 0s;
 }
 #e
@@ -160,7 +171,7 @@ p{
 }
 #l2
 {
-    animation: animate 2.5s infinite;
+    animation: animate 3s infinite;
     animation-delay: .45s;
 }
 #o
@@ -186,11 +197,11 @@ p{
 #l3
 {
     animation: animate 3.2s infinite;
-    animation-delay: 1.2s;
+    animation-delay: 1s;
 }
 #d
 {
-    animation: animate 3.35s infinite;
+    animation: animate 3s infinite;
     animation-delay: 1.35s;
 }
 @keyframes animate
