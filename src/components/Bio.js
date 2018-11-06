@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Bio extends Component {
     render() {
       return (
-        <div className="info">
+        <div className="info section">
             <h3 className="project-title">Who I Am</h3>
             <p className="indent lead">My name is Dave and I am a web developer with an international perspective, able to communicate details and methodologies to stakeholders in more understandable terms. My ardor for learning, coupled with my aptitude for problem solving, make me an asset to any team or project.</p>
             <p className="indent">I am transitioning from being a system administrator with more than 8 years of experience working in a datacenter/NOC environment. In these years I have worked closely on projects with other teams, and have taken that work to train my team mates and supervisors. I also worked regularly with many people from a variety of countries.</p>
