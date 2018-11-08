@@ -1,0 +1,15 @@
+.proj{
+    background: rgb(210,126,204);
+    
+}
+.show-proj{
+    width: 500px;
+}
+.scroll{
+    overflow-x: auto;
+    margin-top: -15px;
+}
+.proj-slide{
+    width: 85%;
+    margin: 15px auto;
+}

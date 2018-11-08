@@ -1,22 +1,39 @@
 import React, { Component } from 'react';
-import hanoi from "../images/Hanoi.png"
-import jot from "../images/jotpad.png"
-import bc from "../images/bookclub.png"
-import chef from "../images/silhouette.png"
+import Slider from "react-slick"
+import Jot from "./slides/Jot"
+import Hanoi from "./slides/Hanoi"
+import Chef from "./slides/Chef"
+import Bookclub from "./slides/Bookclub"
+import "./Projects.css"
 
 class Projects extends Component {
     render() {
+        const settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
       return (
         <div className="info proj">
             <h3 className="project-title">Projects</h3>
             <p className="lead indent">The projects I have created along the way.</p>
-            <div className="scroll">
-                <div className="show-proj">
-                    <img src={jot} alt="Jotpad Image" className="project-img" />
-                    <img src={hanoi} alt="Towers of Hanoi Image" className="project-img"/>
-                    <img src={chef} alt="Community Kitchen Image" className="project-img"/>
-                    <img src={bc} alt="Bookclub Image" className="project-img"/>
-                </div>
+            <div className="proj-slide">
+                <Slider {...settings}>
+                    <div>
+                        <Jot />
+                    </div>
+                    <div>
+                        <Hanoi />
+                    </div>
+                    <div>
+                        <Chef />
+                    </div>
+                    <div>
+                        <Bookclub />
+                    </div>
+                </Slider>
             </div>
         </div>
       );

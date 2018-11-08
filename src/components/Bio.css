@@ -1,0 +1,10 @@
+.sentence-link{
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.sentence-link:hover{
+    color: rgb(210,126,204);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}

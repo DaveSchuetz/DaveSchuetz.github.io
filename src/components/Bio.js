@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import "./Bio.css"
 
 class Bio extends Component {
     render() {

@@ -1,0 +1,20 @@
+.project-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #f0f0f0;
+    box-shadow: 3px 3px rgba(105, 105, 105, 0.5);
+    margin: 10px auto 2px;
+}
+.proj-vis{
+    text-align: center;
+}
+h4{
+    font-family: 'Merienda', cursive;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.proj-desc{
+    width: 200px;
+    margin: auto;
+}

@@ -43,47 +43,18 @@ nav a{
   padding: 10px;
   margin-bottom: 100px;
 }
-.scroll{
-  overflow-x: auto;
-  margin-top: -15px;
-}
 .indent{
   text-indent: 32px;
 }
 .project-title {
   font-family: 'Merienda', cursive;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  margin: 0;
   font-weight: bold;
-  overflow: hidden;
 }
 .lead{
   margin-top: 3px;
 }
-.skills{
-  display: flex;
-  flex-wrap: wrap;
-  width: 500px;
-}
-.group{
-  background: #f0f0f0;
-}
-.proj{
-  background: rgb(210,126,204)
-}
-.show-proj{
-  width: 500px;
-}
-.skills li{
-  flex-basis: 30%;
-  margin: 5px;
-}
-.project-img{
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  border: 2px solid #f0f0f0;
-  box-shadow: 3px 3px rgba(105, 105, 105, 0.5);
-  margin: 10px 10px 2px 5px;
+.project-title:first-letter{
+  font-weight: bold;
+  font-size: 200%;
 }
