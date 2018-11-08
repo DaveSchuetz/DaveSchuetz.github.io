@@ -11,6 +11,8 @@ My name is Dave and I am a web developer with an international perspective, able
 * [Bookclub](http://mern-bookclub.surge.sh/)
 
 ## Connect
-https://www.linkedin.com/in/daveschuetz/
-https://github.com/DaveSchuetz
-https://profiles.generalassemb.ly/profiles/david-schuetz
+* https://www.linkedin.com/in/daveschuetz/
+* https://github.com/DaveSchuetz
+* https://profiles.generalassemb.ly/profiles/david-schuetz
+* https://dev.to/daveschuetz
+* https://medium.com/@dave.schuetz
