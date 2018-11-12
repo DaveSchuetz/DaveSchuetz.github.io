@@ -10,8 +10,18 @@
 }
 header{
   background: rgb(95, 193, 100);
-  border-bottom: 2px solid rgba(240, 240, 240, .6);
+  border-bottom: 2px solid rgb(95, 193, 100);
   padding-top: 5px;
+}
+.nav-lock{
+  background: rgb(95, 193, 100);
+  border-bottom: 2px solid rgba(240, 240, 240, .6);
+  position: -webkit-sticky;
+  position: sticky;
+  padding-top: 5px;
+  height: 20px;
+  top: 0px;
+  z-index: 1;
 }
 .intro{
   font-family: 'Merienda', cursive;
@@ -40,7 +50,7 @@ nav a{
   transition: all 0.3s ease;
 }
 .info{
-  padding: 10px;
+  padding: 22px 10px;
   margin-bottom: 100px;
 }
 .indent{

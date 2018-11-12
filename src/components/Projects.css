@@ -31,25 +31,24 @@ h4{
 }
 .proj-hidden{
     display: none;
-    /* color: black; */
 }
 .proj-visible{
-    display: inherit;
-    /* color: white; */
+    display: block;
 }
 .more-btn{
     display: inherit;
+    margin-top: 15px;
 }
 .less-btn{
     display: none;
 }
-.sentence-link{
+.project-link{
     color: black;
     text-decoration: none;
     transition: all 0.3s ease;
 }
-.sentence-link:hover{
-    color: rgb(210,126,204);
+.project-link:hover{
+    color: rgb(95, 193, 100);
     transition: all 0.3s ease;
     text-decoration: none;
 }

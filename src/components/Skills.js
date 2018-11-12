@@ -25,7 +25,7 @@ class Skills extends Component {
       return (
         <div className="info group">
             <h3 className="project-title">Skills</h3>
-            <p className="lead indent">Some technologies I have encountered on the way:</p>
+            <p className="indent">Some technologies I have encountered along the way:</p>
             <div className="scroll">
                 <ul className="skills">
                     {this.state.skills.map((skill, i)=>

@@ -45,7 +45,7 @@ class Projects extends Component {
                     image: bc,
                     shortDesc: "Bookclub was a group project built with MongoDB, Express, React, and Node.",
                     about: "Bookclub was built to be a place where you could come to find your next book to read. Someone could go to the page, search for a specific book, and leave comments. Or they could click the random button, and find the next book that they should read, either alone, or for their book-club.",
-                    final: "This project tested our abilities to divide work and to work through GitHub conflicts. We did run into a few issues with merging into GitHub, but otherwise, our project went pretty smoothly. That is, until it came time to deploy. One thing that we saw was an issue while deploying to Surge, where it was having issues redirecting. This turns out was due to an issue Surge has with React routing, the resolution was to add a 200.html page, that Surge would use as the go to if the routing was not perfect, from there it would use React routing as expected",
+                    final: "This project tested our abilities to divide work and to work through GitHub conflicts. We did run into a few issues with merging into GitHub, but otherwise, our project went smoothly. That is, until it came time to deploy. One thing that we saw was an issue while deploying to Surge, where it was having issues redirecting. This turns out was due to an issue Surge has with React routing, the resolution was to add a 200.html page, that Surge would use as the go to if the routing was not perfect, from there it would use React routing as expected",
                     app: "http://mern-bookclub.surge.sh/",
                     github: "https://github.com/DaveSchuetz/BookClub-FrontEnd"
                 }
@@ -72,7 +72,7 @@ class Projects extends Component {
       return (
         <div className="info proj">
             <h3 className="project-title">Projects</h3>
-            <p className="lead indent">The projects I have created along the way.</p>
+            <p className="indent">The projects I have created along the way.</p>
             <div className="proj-slide">
                 <Slider {...settings}>
                 {this.state.projects.map((project, i) =>
@@ -83,7 +83,7 @@ class Projects extends Component {
                         <div className={visibility}>
                             <p>{project.about}</p>
                             <p>{project.final}</p>
-                            <p>View <a href={project.app} className="sentence-link" target="_blank" rel="noopener noreferrer">here</a>. See the code on <a href={project.github} className="sentence-link" target="_blank" rel="noopener noreferrer">Github</a>.</p><strong onClick={this.showText}>LESS</strong>
+                            <p>View <a href={project.app} className="project-link" target="_blank" rel="noopener noreferrer">here</a>. See the code on <a href={project.github} className="project-link" target="_blank" rel="noopener noreferrer">Github</a>.</p><strong onClick={this.showText}>LESS</strong>
                         </div>
                     </div>
                     )}
