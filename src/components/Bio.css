@@ -1,0 +1,14 @@
+.sentence-link{
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.sentence-link:hover{
+    color: rgb(210,126,204);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.section{
+    background: rgb(74, 119, 77);
+    color: white;
+}

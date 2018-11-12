@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(173, 209, 174, 0.5);
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-shadow: 1px 1px rgba(117, 117, 117, 0.5);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
