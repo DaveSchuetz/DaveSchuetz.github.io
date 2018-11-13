@@ -4,6 +4,7 @@ import jot from "../images/jotpad.png"
 import hanoi from "../images/Hanoi.png"
 import chef from "../images/silhouette.png"
 import bc from "../images/bookclub.png"
+import portfolio from "../images/portfolio.png"
 import "./Projects.css"
 
 class Projects extends Component {
@@ -48,6 +49,15 @@ class Projects extends Component {
                     final: "This project tested our abilities to divide work and to work through GitHub conflicts. We did run into a few issues with merging into GitHub, but otherwise, our project went smoothly. That is, until it came time to deploy. One thing that we saw was an issue while deploying to Surge, where it was having issues redirecting. This turns out was due to an issue Surge has with React routing, the resolution was to add a 200.html page, that Surge would use as the go to if the routing was not perfect, from there it would use React routing as expected",
                     app: "http://mern-bookclub.surge.sh/",
                     github: "https://github.com/DaveSchuetz/BookClub-FrontEnd"
+                },
+                {
+                    name: "Portfolio",
+                    image: portfolio,
+                    shortDesc: "My personal portfolio page built with React.",
+                    about:"My portfolio page redone in React, and mobile responsive. Original was just a few linked HTML pages, so I felt it didn't show off what I had learned, and the kind of work I wanted to do.",
+                    final: "I tried to put in quite a bit of variety with the build. Sections that are just text and a section that uses a Slider component, it also allows for clicking to expand the descriptions. The skill part is set up so that it will scroll to the right on mobile, without scrolling the other sections. The most frustrating part was trying to get it hosted on GitHub. This involved manipulating the scripts in package.json. The link below is going to take you to the old portfolio page.",
+                    app: "https://daveschuetz.github.io/old_portfolio/",
+                    github:"https://github.com/DaveSchuetz/DaveSchuetz.github.io"
                 }
             ]
         }
@@ -83,7 +93,7 @@ class Projects extends Component {
                         <div className={visibility}>
                             <p>{project.about}</p>
                             <p>{project.final}</p>
-                            <p>View <a href={project.app} className="project-link" target="_blank" rel="noopener noreferrer">here</a>. See the code on <a href={project.github} className="project-link" target="_blank" rel="noopener noreferrer">Github</a>.</p><strong onClick={this.showText}>LESS</strong>
+                            <p>View <a href={project.app} className="project-link" target="_blank" rel="noopener noreferrer">here</a>. See the code on <a href={project.github} className="project-link" target="_blank" rel="noopener noreferrer">Github</a>.</p><strong className="more-btn" onClick={this.showText}>LESS</strong>
                         </div>
                     </div>
                     )}

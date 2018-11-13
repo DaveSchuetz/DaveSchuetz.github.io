@@ -18,11 +18,11 @@ class App extends Component {
         </header>
         <div className="nav-lock">
             <nav>
-              <a href="#bio">About</a>
-              <a href="#skills">Skills</a>
-              <a href="#projects">Projects</a>
-              <a href="#more">More</a>
-              <a href="#contact">Contact</a>
+              <a className="nav-link" href="#bio">About</a>
+              <a className="nav-link" href="#skills">Skills</a>
+              <a className="nav-link" href="#projects">Projects</a>
+              <a className="nav-link" href="#more">More</a>
+              <a className="nav-link" href="#contact">Contact</a>
             </nav>
           </div>
         <div id="bio">

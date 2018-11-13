@@ -35,19 +35,13 @@ h1.intro{
 h2.intro{
   margin-top: 0;
   margin-bottom: 35px;
-  margin-left: 150px;
+  margin-left: 160px;
 }
 nav{
   display: flex;
   align-items: center;
   margin-bottom: 2px;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
-}
-nav a{
-  flex-grow:1;
-  text-align: center;
-  color: white;
-  transition: all 0.3s ease;
 }
 .info{
   padding: 22px 10px;
@@ -67,4 +61,28 @@ nav a{
 .project-title:first-letter{
   font-weight: bold;
   font-size: 200%;
+}
+.nav-link{
+  flex-grow:1;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.nav-link:hover{
+  color: rgb(210,126,204);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+@media (min-width: 992px){
+  h2.intro{
+    margin-left: 400px;
+  }
+  h1.intro{
+    margin-left: 200px;
+  }
+  .profPic{
+    height: 150px;
+    width: 150px;
+  }
 }
