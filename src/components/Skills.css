@@ -14,3 +14,8 @@
     overflow-x: auto;
     margin-top: -15px;
 }
+@media (min-width: 992px){
+    .skills li{
+        flex-basis:32%;
+    }
+}

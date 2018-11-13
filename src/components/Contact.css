@@ -21,7 +21,7 @@
     justify-content: space-around;
 }
 .contact-flex{
-    flex-basis: 50%;
+    flex-basis: 25%;
 }
 .contact-img{
     display: block;
