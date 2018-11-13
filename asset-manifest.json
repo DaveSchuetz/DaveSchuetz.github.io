@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.97396bfa.chunk.css",
-  "main.js": "/static/js/main.12eb962a.chunk.js",
-  "main.js.map": "/static/js/main.12eb962a.chunk.js.map",
+  "main.css": "/static/css/main.73c35e75.chunk.css",
+  "main.js": "/static/js/main.b4eb51f7.chunk.js",
+  "main.js.map": "/static/js/main.b4eb51f7.chunk.js.map",
   "static/js/1.d4a55032.chunk.js": "/static/js/1.d4a55032.chunk.js",
   "static/js/1.d4a55032.chunk.js.map": "/static/js/1.d4a55032.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -12,8 +12,8 @@
   "static/media/bookclub.png": "/static/media/bookclub.38a08086.png",
   "static/media/portfolio.png": "/static/media/portfolio.6effc9c5.png",
   "static/media/jotpad.png": "/static/media/jotpad.e47d67e0.png",
-  "static/css/main.97396bfa.chunk.css.map": "/static/css/main.97396bfa.chunk.css.map",
+  "static/css/main.73c35e75.chunk.css.map": "/static/css/main.73c35e75.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.141317b00010e473b1e23aef999e9dc4.js": "/precache-manifest.141317b00010e473b1e23aef999e9dc4.js",
+  "precache-manifest.f5ddd581655eec50bbed2f2a2dc82efe.js": "/precache-manifest.f5ddd581655eec50bbed2f2a2dc82efe.js",
   "service-worker.js": "/service-worker.js"
 }
