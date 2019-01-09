@@ -1,3 +1,4 @@
+
 .profPic{
   vertical-align: initial;
   height: 100px;
@@ -44,8 +45,9 @@ nav{
   text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 .info{
-  padding: 22px 10px;
+  padding: 22px 15px;
   margin-bottom: 100px;
+  line-height: 120%
 }
 .indent{
   text-indent: 32px;
@@ -87,5 +89,7 @@ nav{
   }
   .info{
     margin-bottom: 200px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }

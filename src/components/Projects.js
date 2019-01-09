@@ -84,7 +84,7 @@ class Projects extends Component {
             <h3 className="project-title">Projects</h3>
             <p className="indent">The projects I have created along the way.</p>
             <div className="proj-slide">
-                <Slider {...settings}>
+                <Slider {...settings} className="proj-complete">
                 {this.state.projects.map((project, i) =>
                     <div key={i}>
                         <img src={project.image} alt={project.name} className="project-img" />

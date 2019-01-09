@@ -7,15 +7,25 @@
     background: #f0f0f0;
 }
 .skills li{
-    flex-basis: 30%;
+    flex-basis: 28%;
     margin: 5px;
 }
 .scroll{
     overflow-x: auto;
     margin-top: -15px;
 }
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, .5);
+}
+.scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+.scroll::-webkit-scrollbar:horizontal {
+    height: 3px;
+}
 @media (min-width: 992px){
     .skills li{
-        flex-basis:32%;
+        flex-basis:31%;
     }
 }

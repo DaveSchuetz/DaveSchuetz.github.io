@@ -13,7 +13,7 @@ a {
 }
 @media (min-width: 992px){
   body{
-    width: 992px;
+    width: 900px;
     margin: auto;
     font-size: x-large;
   }
